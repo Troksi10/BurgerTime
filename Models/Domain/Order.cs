@@ -23,7 +23,7 @@
 
         public void Deliver()
         {
-            if (!IsDelivered)
+            if (IsDelivered)
             {
                 throw new Exception(" Can not be delivered");
             }
